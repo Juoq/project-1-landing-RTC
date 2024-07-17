@@ -39,6 +39,8 @@ nav {
   display: flex;
   gap: 30px;
   padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -51,6 +53,18 @@ ul {
 a {
   text-decoration: none;
   color: #141615;
+}
+
+#menu-element-wrapper {
+  @media (max-width: 800px){
+    display: none;
+  }
+}
+
+#menu-icon {
+  @media (min-width: 800px){
+    display: none;
+  }
 }
 
 #user-wrapper {
